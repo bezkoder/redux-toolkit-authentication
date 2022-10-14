@@ -1,46 +1,107 @@
-# Getting Started with Create React App and Redux
+## Redux-toolkit Authentication & Authorization example
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+- JWT Authentication & Authorization Flow for User Login, Register, Logout
+- Project Structure for React Redux JWT Authentication, Router, Axios
+- Working with Redux Actions, Reducers, Store using redux-toolkit
+- Storing JWT in HttpOnly Cookies
+- Creating React Function Components with Hooks & Form Validation
+- React Function Components for accessing protected Resources (Authorization)
+- Dynamic Navigation Bar in React App
 
-## Available Scripts
+For more detail, please visit:
+> [React Redux Authentication & Authorization example with Redux-toolkit](https://www.bezkoder.com/redux-toolkit-auth/)
+
+Signup Page:
+
+![redux-toolkit-authentication-signup](redux-toolkit-authentication-signup.png)
+
+Login Page:
+
+![redux-toolkit-authentication-login](redux-toolkit-authentication-login.png)
+
+For Authorized account login (Moderator for example), the navigation bar will change:
+
+![redux-toolkit-authorization](redux-toolkit-authorization.png)
+
+Working with back-end servers:
+> [Spring Boot + H2](https://www.bezkoder.com/spring-boot-security-jwt/)
+
+> [Spring Boot + MySQL/PostgreSQL](https://www.bezkoder.com/spring-boot-login-example-mysql/)
+
+> [Spring Boot + MongoDB](https://www.bezkoder.com/spring-boot-mongodb-login-example/)
+
+> [Node Express + MySQL/PostgreSQL](https://www.bezkoder.com/node-js-express-login-example/)
+
+> [Node Express + MongoDB](https://www.bezkoder.com/node-js-express-login-mongodb/)
+
+Related Posts (without redux-toolkit):
+> [React Redux Login, Logout, Registration example with Hooks](https://bezkoder.com/react-login-example-jwt-hooks/)
+
+Fullstack (JWT Authentication & Authorization example):
+> [React + Spring Boot](https://www.bezkoder.com/spring-boot-react-jwt-auth/)
+
+> [React + Node Express](https://www.bezkoder.com/react-express-authentication-jwt/)
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Project setup
 
 In the project directory, you can run:
 
-### `yarn start`
+```
+npm install
+# or
+yarn install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+or
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Compiles and hot-reloads for development
 
-### `yarn test`
+```
+npm start
+# or
+yarn start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Open [http://localhost:8081](http://localhost:8081) to view it in the browser.
 
-### `yarn build`
+The page will reload if you make edits.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Related Posts
+> [In-depth Introduction to JWT-JSON Web Token](https://www.bezkoder.com/jwt-json-web-token/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> [React CRUD example using Hooks](https://www.bezkoder.com/react-hooks-crud-axios-api/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> [React Pagination using Hooks example](https://www.bezkoder.com/react-pagination-hooks/)
 
-### `yarn eject`
+> [React Hooks File Upload example](https://www.bezkoder.com/react-hooks-file-upload/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> [React Form Validation with Hooks example](https://bezkoder.com/react-form-validation-hooks/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Fullstack with Node Express:
+> [React + Node Express + MySQL](https://www.bezkoder.com/react-node-express-mysql/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+> [React + Node Express + PostgreSQL](https://www.bezkoder.com/react-node-express-postgresql/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+> [React + Node Express + MongoDB](https://www.bezkoder.com/react-node-express-mongodb-mern-stack/)
 
-## Learn More
+Fullstack with Spring Boot:
+> [React + Spring Boot + MySQL](https://www.bezkoder.com/react-spring-boot-crud/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> [React + Spring Boot + PostgreSQL](https://www.bezkoder.com/spring-boot-react-postgresql/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> [React + Spring Boot + MongoDB](https://www.bezkoder.com/react-spring-boot-mongodb/)
+
+Fullstack with Django:
+> [React Hooks + Django Rest Framework](https://www.bezkoder.com/django-react-hooks/)
+
+Serverless:
+> [React Hooks Firebase Realtime Database: CRUD App ](https://www.bezkoder.com/react-firebase-hooks-crud/)
+
+> [React Hooks Firestore example: CRUD App](https://www.bezkoder.com/react-hooks-firestore/)
+
+Integration (run back-end & front-end on same server/port)
+> [Integrate React with Spring Boot](https://www.bezkoder.com/integrate-reactjs-spring-boot/)
+
+> [Integrate React with Node Express](https://www.bezkoder.com/integrate-react-express-same-server-port/)
